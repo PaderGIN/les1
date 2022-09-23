@@ -45,7 +45,6 @@
 }
 
 .menu-main a:before,
-
 .menu-main a:after {
     content: "";
     position: absolute;
@@ -66,8 +65,28 @@
     right: 0;
 }
 
-.body{
+.table{
+    border-color: black;
+    align-content: center;
+}
+
+.body {
     height: 100%;
+}
+
+#Math {
+    width: 80%;
+    height: 70px;
+}
+
+#Physics {
+    width: 80%;
+    height: 70px;
+}
+
+#Prog {
+    width: 80%;
+    height: 70px;
 }
 
 #MathImg {
@@ -86,7 +105,39 @@
     margin-right: 50px;
 }
 
-.footer{
+#PhysicsImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px darkgrey;
+    float: left;
+}
+
+#PhysicsText {
+    margin-left: 300px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+#ProgImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px darkgrey;
+    float: left;
+}
+
+#ProgText {
+    margin-left: 300px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.footer {
     margin-top: 100%;
 
 }

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторная работа №2</title>
+    <link rel="stylesheet" href="styleLb2.1.css">
+</head>
+<body>>
+
+<form action="https://httpbin.org/post" method="post" id="form">
+    <fieldset>
+        <p><img src="img.png" id = "kitty"></p>
+        <legend id="legend">Форма обратной связи</legend>
+        <div>
+            <label for="name">ФИО:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label>Откуда вы узнали о нас?</label>
+            <label><input type="radio" name="how" value="radio1">Из интернета</label>
+            <label><input type="radio" name="how" value="radio2">Из друзей</label>
+        </div>
+        <div>
+            <label for="type">Тип обращения</label>
+            <select name="type" id="type">
+                <option value="complaint">Жалоба</option>
+                <option value="proposal">Предложение</option>
+            </select>
+        </div>
+        <div>
+            <label for="text">Текст сообщения</label>
+            <br>
+            <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="file">Вложения</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">Согласие на обработку персональных данных</label>
+        </div>
+        <div>
+            <input type="submit" value="Отправить">
+        </div>
+    </fieldset>
+</form>
+</body>
+
+</html>

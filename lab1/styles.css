@@ -75,6 +75,7 @@
 
 tbody{
     color: #1d1e3b;
+    background: ;
 }
 
 .body {
@@ -152,22 +153,3 @@ tbody{
     margin-top: 100%;
 
 }
-
-/*@media (max-width: 550px) {*/
-/*    .menu-main {*/
-/*        padding-top: 0;*/
-/*    }*/
-
-/*    .menu-main li {*/
-/*        display: block;*/
-/*    }*/
-
-/*    .menu-main li:after {*/
-/*        content: none;*/
-/*    }*/
-
-/*    .menu-main a {*/
-/*        padding: 25px 0 20px;*/
-/*        margin: 0 30px;*/
-/*    }*/
-/*}*/

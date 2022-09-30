@@ -5,11 +5,21 @@
     <title>Лабораторная работа №2</title>
     <link rel="stylesheet" href="styleLb2.1.css">
 </head>
-<body>>
+<body>
+<header>
+    <ul class="menu-main">
+        <li><a href="#table" class="current">Home</a></li>
+        <li><a href="#Math">Math</a></li>
+        <li><a href="#Physics">Physics</a></li>
+        <li><a href="#Prog">Programming</a></li>
+        <li><a href="http://localhost:63342/web/lab2/форма%20для%20аутентификации/auth.html">Auth</a></li>
+        <li><a href="http://localhost:63342/web/lab2/форма обратной связи/feedback.html">Feedback</a></li>
+    </ul>
+</header>
 
 <form action="https://httpbin.org/post" method="post" id="form">
     <fieldset>
-        <p><img src="img.png" id = "kitty"></p>
+        <p><img src="img.png" id="kitty"></p>
         <legend id="legend">Форма обратной связи</legend>
         <div>
             <label for="name">ФИО:</label>
@@ -48,7 +58,16 @@
             <input type="submit" value="Отправить">
         </div>
     </fieldset>
+    <a href="http://localhost:63342/web/lab1/Home.html">Вернуться на главную страницу</a>
+
 </form>
+<footer>
+    <p>Copyright ©
+        <time datetime="2022">2022</time>
+        Moscow Polytechnic University
+    </p>
+    <address>Moscow, Russia.</address>
+</footer>
 </body>
 
 </html>
